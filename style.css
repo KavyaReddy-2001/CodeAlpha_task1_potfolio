@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:eght@300;400;500;600;700;800;900&display=swag');
 *{
     margin: 0;
     padding: 0;
@@ -212,6 +213,14 @@ span{
     font-size: 20px;
     margin: 2em 0 3em;
 }
+.certification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 1em;
+    background: black;
+}
 .contact-form{
     text-align: center;
     margin-top: 3em;
@@ -219,6 +228,7 @@ span{
     font-size: 36px;
 
 }
+
 .contact-form form{
     max-width: 50em;
     margin: 1rem auto;
